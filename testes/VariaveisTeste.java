@@ -1,4 +1,4 @@
-public class Variaveis {
+public class VariaveisTeste {
   public static void main(String[] args) {
     
     int i;
