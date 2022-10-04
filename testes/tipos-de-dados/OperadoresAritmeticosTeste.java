@@ -1,5 +1,3 @@
-import javax.swing.JSpinner.NumberEditor;
-
 public class OperadoresAritmeticosTeste {
 
   public static void main(String[] args) {
