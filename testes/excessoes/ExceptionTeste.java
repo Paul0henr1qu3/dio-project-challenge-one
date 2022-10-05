@@ -1,7 +1,5 @@
 package testes.excessoes;
 
-import java.text.NumberFormat;
-
 public class ExceptionTeste {
   
   public static void main(String[] args) {
