@@ -38,6 +38,8 @@ public class ExerciciosPerguntas {
       respostas.add(resposta.toUpperCase());
     }
 
+    scanner.close();
+
     int resultado = Collections.frequency(respostas, "SIM");
 
     switch(resultado){

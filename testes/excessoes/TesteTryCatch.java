@@ -3,7 +3,7 @@ package testes.excessoes;
 public class TesteTryCatch {
   public static void main(String[] args) {
     int numero = 10;
-    int dividir;
+    int dividir = 0;
 
     try{
       dividir = numero / 0;
@@ -11,6 +11,7 @@ public class TesteTryCatch {
       System.out.println(ex.getStackTrace());
     }
 
+    System.out.print(dividir);
     System.out.println("divindo...");
   }
 }
